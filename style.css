@@ -179,3 +179,28 @@ html{
     padding: 0 200px;
     margin-top: -100px;
 }
+
+/*-------footer------- */
+
+.footcontainer{
+    width: 80vw;
+    height: max-content;
+    margin: auto;
+    border: 2px solid blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footsubcontainer{
+width: 10vw;
+border: 2px solid #000;
+text-align: center;
+font-size: 1rem;
+}
+
+.footsubcontainer h2{
+    margin-bottom: 10px;
+    font-size: 2rem;
+
+}
